@@ -4,5 +4,5 @@ development:
   database: billr_development
   pool: 5
   host: localhost
-  username: chyld
+  username: larrybuch
   password:
