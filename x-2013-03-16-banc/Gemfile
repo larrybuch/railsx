@@ -1,0 +1,31 @@
+source 'https://rubygems.org'
+
+gem 'rails'
+gem 'pg'
+gem 'jquery-rails'
+gem 'haml'
+gem 'bcrypt-ruby'
+
+group :assets do
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
+end
+
+group :development, :test do
+  gem 'factory_girl_rails'
+  gem 'guard-rspec' #automates testing
+  gem 'rb-fsevent'
+  gem 'rspec-rails' #rspec
+  gem 'capybara' #controls browser when testing
+  gem 'launchy' #launch browser and see it
+  gem 'database_cleaner' #test run to clean database
+  gem 'pry-rails'
+  gem 'pry-debugger'
+  gem 'pry-stack_explorer'
+  gem 'annotate'
+  gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+end
